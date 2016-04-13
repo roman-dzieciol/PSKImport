@@ -1,37 +1,23 @@
-// ============================================================================
-//  PSKImport :: Unreal .psk Skeletal Mesh importer for 3ds Max
-// ============================================================================
- 
-// CREDITS
+# PSKImport
 
-Copyright {C} 2009 Roman Switch` Dzieciol
-email: r.dzieciol@hotmail.com
-msn: r.dzieciol@hotmail.com
-irc: #unrealscript @ETG
+Unreal .psk Skeletal Mesh importer for 3ds Max
 
-
-
-// ABOUT
+## ABOUT
  
 PSKImport is a 3ds Max importer plugin for Unreal Engine PSK mesh files. Its 
 main purpose is data recovery. If you lose your .max files, you can now import
 the PSK mesh back into Max, edit where needed, and export back using ActorX.
  
- 
-// COMPATIBILITY
+## COMPATIBILITY
 
  - Tested on 3ds Max 2009 32bit, Windows XP SP2, on random UE2/UE3 files
  
- 
-  
-// INSTALLATION
+## INSTALLATION
 
  - Shutdown 3ds Max
  - Copy PSKImport.dli to your 3ds Max plugins directory
- 
- 
 
-// SUPPORTED FEATURES
+## SUPPORTED FEATURES
 
  - Mesh
    - Per-face smoothing groups (if present)
@@ -46,11 +32,6 @@ the PSK mesh back into Max, edit where needed, and export back using ActorX.
    - bones without influences are red 
    - other bones are green
 
-
 You can export all back to PSK (using ActorX) straight after import. 
 The re-exported file will be compatible with your existing PSA anims.
  
- 
-// ============================================================================
-//  EOF
-// ============================================================================
